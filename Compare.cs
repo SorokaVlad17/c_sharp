@@ -4,7 +4,7 @@ namespace Project
 {
     class Program
     {
-        public  static int Compare(string a, string b)
+        public int Compare(string a, string b)
         {
             if (a == b)
             {
