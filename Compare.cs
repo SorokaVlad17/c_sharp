@@ -56,10 +56,10 @@ namespace Project
         }
         static void Main(string[] args)
         {
-            Console.Write("Введите первую строку : ");
+            Console.Write("Enter first line : ");
             string str1 = Console.ReadLine();
 
-            Console.Write("Введите вторую строку : ");
+            Console.Write("Enter second line : ");
             string str2 = Console.ReadLine();
 
             Console.WriteLine("String.Compare(\"{0}\",\"{1}\") = {2}",str1,str2,string.Compare(str1,str2));
