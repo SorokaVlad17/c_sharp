@@ -35,7 +35,7 @@ namespace MovingMouse
                 }
                 catch
                 {
-                    continue;
+                   
                 }
 
                 xMonitorBefore = xMonitorNow;
