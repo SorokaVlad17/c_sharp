@@ -50,9 +50,9 @@ namespace MinAndMaxRecursion
             Console.Write("Enter the count numbers : ");
             int n = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Min = {0}",Min(n));
+            Console.WriteLine("Min = {0}",GetMin(n));
 
-            Console.WriteLine("Max = {0}", Max(n));
+            Console.WriteLine("Max = {0}", GetMax(n));
             
             Console.ReadKey();
         }
