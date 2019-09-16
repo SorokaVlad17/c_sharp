@@ -11,7 +11,7 @@ namespace MinAndMaxRecursion
             --count;
             return int.Parse(Console.ReadLine());
         }
-        public static int Min(int n,int min=int.MaxValue)
+        public static int GetMin(int n,int min=int.MaxValue)
         {
             int count = n;
             
@@ -29,7 +29,7 @@ namespace MinAndMaxRecursion
 
         }
 
-        public static int Max(int n, int max = int.MinValue)
+        public static int GetMax(int n, int max = int.MinValue)
         {
             int count = n;
 
