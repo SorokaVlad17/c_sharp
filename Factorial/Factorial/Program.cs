@@ -19,7 +19,12 @@ namespace Factorial
         }
         static void Main(string[] args)
         {
+            Console.Write("Введите число:");
+            int number=int.Parse(Console.ReadLine());
             
+            Console.WriteLine("!{0} = {1}",number,GetFactorial(number));
+            
+            Console.ReadKey();
         }
     }
 }
