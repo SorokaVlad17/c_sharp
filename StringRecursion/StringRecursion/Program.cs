@@ -32,6 +32,8 @@ namespace StringRecursion
             string str = Console.ReadLine();
 
             Console.WriteLine("Result = {0}",StringFunc(str));
+            
+            Console.ReadKey();
         }
     }
 }
