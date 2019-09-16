@@ -8,14 +8,14 @@ namespace Factorial
 {
     class Program
     {
-        public static int Factorial(int number)
+        public static int GetFactorial(int number)
         {
             
             if(number==0)
             {
                 return 1;
             }
-            return number * Factorial(number - 1);
+            return number * GetFactorial(number - 1);
         }
         static void Main(string[] args)
         {
