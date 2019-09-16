@@ -53,6 +53,8 @@ namespace MinAndMaxRecursion
             Console.WriteLine("Min = {0}",Min(n));
 
             Console.WriteLine("Max = {0}", Max(n));
+            
+            Console.ReadKey();
         }
     }
 }
