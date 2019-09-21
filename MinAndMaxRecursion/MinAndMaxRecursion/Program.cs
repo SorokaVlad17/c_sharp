@@ -11,7 +11,7 @@ namespace MinAndMaxRecursion
             --count;
             return int.Parse(Console.ReadLine());
         }
-        public static int GetMin(int n,int min=int.MaxValue)
+        public static int GetMin(int n,int min = int.MaxValue)
         {
             int count = n;
             
@@ -23,6 +23,17 @@ namespace MinAndMaxRecursion
             int number = EnterNumber(ref count);
 
             int otherMin = min < number ? min : number;
+            
+            int otherMin;
+            
+            if(min<number)
+            {
+                otherMin = min;
+            }
+            else
+            {
+                otherMin = number;
+            }
 
             return Min(n - 1, otherMin);
             
@@ -39,7 +50,17 @@ namespace MinAndMaxRecursion
             }
 
             int number = EnterNumber(ref count);
-            int otherMax = max > number ? max : number;
+            
+            int otherMax;
+            
+            if(max>number)
+            {
+                otherMax = min;
+            }
+            else
+            {
+                otherMax = number;
+            }
 
             return Max(n - 1, otherMax);
 
