@@ -32,12 +32,14 @@ namespace MovingMouse
                 try
                 {
                    Console.SetCursorPosition(xConsole, yConsole);
-                     Console.Write("*");
                 }
                 catch
                 {
-                     Console.Write("*");
-                   
+                                
+                }
+                finally
+                {
+                    Console.Write("*");
                 }
 
                 xMonitorBefore = xMonitorNow;
