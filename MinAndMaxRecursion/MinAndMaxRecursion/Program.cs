@@ -35,7 +35,7 @@ namespace MinAndMaxRecursion
                 otherMin = number;
             }
 
-            return Min(n - 1, otherMin);
+            return GetMin(n - 1, otherMin);
             
 
         }
@@ -62,7 +62,7 @@ namespace MinAndMaxRecursion
                 otherMax = number;
             }
 
-            return Max(n - 1, otherMax);
+            return GetMax(n - 1, otherMax);
 
 
         }
