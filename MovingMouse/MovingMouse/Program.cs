@@ -27,7 +27,7 @@ namespace MovingMouse
                 int yMonitorNow = Cursor.Position.Y;
 
                 xConsole = ((xMonitorNow - yMonitorBefore) / SPEED_MOUSE_X) + Console.CursorLeft ;
-                yConsole =(yMonitorNow + yMonitorBefore) / SPEED_MOUSE_Y + Console.CursorTop -2 ;
+                yConsole =(yMonitorNow + yMonitorBefore) / SPEED_MOUSE_Y + Console.CursorTop - 2 ;
 
                 try
                 {
