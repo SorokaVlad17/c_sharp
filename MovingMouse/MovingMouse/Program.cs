@@ -16,6 +16,8 @@ namespace MovingMouse
             const int SPEED_MOUSE_X = 5;
 
             const int SPEED_MOUSE_Y = 25;
+            
+            const char CURSOR = '*';
 
             int xMonitorBefore = Cursor.Position.X;
             int yMonitorBefore = Cursor.Position.Y;
@@ -39,13 +41,13 @@ namespace MovingMouse
                 }
                 finally
                 {
-                    Console.Write("*");
+                    Console.Write(CURSOR);
                 }
 
                 xMonitorBefore = xMonitorNow;
                 yMonitorBefore = yMonitorNow;
 
-                Thread.Sleep(10);
+                Thread.Sleep(15);
 
                 Console.Clear();
                 
