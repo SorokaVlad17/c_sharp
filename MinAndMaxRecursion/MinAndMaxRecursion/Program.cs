@@ -21,8 +21,6 @@ namespace MinAndMaxRecursion
             }
 
             int number = EnterNumber(ref count);
-
-            int otherMin = min < number ? min : number;
             
             int otherMin;
             
@@ -55,7 +53,7 @@ namespace MinAndMaxRecursion
             
             if(max>number)
             {
-                otherMax = min;
+                otherMax = max;
             }
             else
             {
