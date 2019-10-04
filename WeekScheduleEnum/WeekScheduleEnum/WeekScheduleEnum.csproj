@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40A379ED-D426-4DA6-B265-B96F040419F5}</ProjectGuid>
+    <ProjectGuid>{E07C9BCB-F940-4945-B953-DC2043143DB9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>WeekScheduleEnum</RootNamespace>
     <AssemblyName>WeekScheduleEnum</AssemblyName>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DaysOfWeekMasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,7 @@
+C:\WeekScheduleEnum\WeekScheduleEnum\bin\Debug\WeekScheduleEnum.exe.config
+C:\WeekScheduleEnum\WeekScheduleEnum\bin\Debug\WeekScheduleEnum.exe
+C:\WeekScheduleEnum\WeekScheduleEnum\bin\Debug\WeekScheduleEnum.pdb
+C:\WeekScheduleEnum\WeekScheduleEnum\obj\Debug\WeekScheduleEnum.csprojAssemblyReference.cache
+C:\WeekScheduleEnum\WeekScheduleEnum\obj\Debug\WeekScheduleEnum.csproj.CoreCompileInputs.cache
+C:\WeekScheduleEnum\WeekScheduleEnum\obj\Debug\WeekScheduleEnum.exe
+C:\WeekScheduleEnum\WeekScheduleEnum\obj\Debug\WeekScheduleEnum.pdb

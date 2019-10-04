@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekScheduleEnum", "WeekScheduleEnum\WeekScheduleEnum.csproj", "{40A379ED-D426-4DA6-B265-B96F040419F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekScheduleEnum", "WeekScheduleEnum\WeekScheduleEnum.csproj", "{E07C9BCB-F940-4945-B953-DC2043143DB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40A379ED-D426-4DA6-B265-B96F040419F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40A379ED-D426-4DA6-B265-B96F040419F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40A379ED-D426-4DA6-B265-B96F040419F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40A379ED-D426-4DA6-B265-B96F040419F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07C9BCB-F940-4945-B953-DC2043143DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07C9BCB-F940-4945-B953-DC2043143DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07C9BCB-F940-4945-B953-DC2043143DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07C9BCB-F940-4945-B953-DC2043143DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {36FA8358-ECC2-4A79-88F1-00F1479C7EAD}
+		SolutionGuid = {479504BD-D201-49BE-AD80-FA20219CC033}
 	EndGlobalSection
 EndGlobal
