@@ -10,7 +10,7 @@ namespace FromArrayToMatrix
     {
         static public Random random = new Random();
 
-        static public int[] InitiliazationArrray(int size, int minValue, int maxValue)
+        static public int[] GetInitiliazationArrray(int size, int minValue, int maxValue)
         {
             int[] initArray = new int[size];
 
@@ -22,7 +22,7 @@ namespace FromArrayToMatrix
             return initArray;
         }
 
-        static public int[,] FromVectorToMatrix(int[] vector, int n, int m)
+        static public int[,] GetFromVectorToMatrix(int[] vector, int n, int m)
         {
 
             int[,] matrix = new int[n,m];
@@ -61,7 +61,7 @@ namespace FromArrayToMatrix
             Console.Write("Enter of maximum value : ");
             int maxValue = int.Parse(Console.ReadLine());
 
-            int[] vector = InitiliazationArrray(size, minValue, maxValue);
+            int[] vector = GetInitiliazationArrray(size, minValue, maxValue);
 
             Console.Write("Enter of rows a array : ");
             int rows = int.Parse(Console.ReadLine());
@@ -76,7 +76,7 @@ namespace FromArrayToMatrix
 
             Console.WriteLine("\n");
 
-            int[,] matrix = FromVectorToMatrix(vector, columns, rows);
+            int[,] matrix = GetFromVectorToMatrix(vector, columns, rows);
 
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
