@@ -11,7 +11,7 @@ namespace MinMaxArray
 
         static public Random random = new Random();
 
-        static public int[] InitilizationArray(int size, int minValue, int maxValue)
+        static public int[] GetInitilizationArray(int size, int minValue, int maxValue)
         {
 
             int[] initArray = new int[size];
@@ -69,7 +69,7 @@ namespace MinMaxArray
             Console.Write("Enter of max value in array : ");
             int maxValue = int.Parse(Console.ReadLine());
 
-            int [] array = InitilizationArray(size, minValue, maxValue);
+            int [] array = GetInitilizationArray(size, minValue, maxValue);
 
             foreach(int i in array)
             {
