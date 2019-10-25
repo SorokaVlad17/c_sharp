@@ -56,11 +56,7 @@ namespace University
                           
 
                         } while (true);
-                        //Student p1 = Initilization.GetRandomStudent();
-                        //form.AddStudent(p1);
-                        //UI.PrintGroup(form);
-                        //form.DeleteStudent(Console.ReadLine());
-                        //UI.PrintGroup(form);
+                       
                         break;
                     }
             }
