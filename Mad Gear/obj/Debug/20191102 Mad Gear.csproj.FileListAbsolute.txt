@@ -1,0 +1,6 @@
+Z:\C#19-2\vladSoroka\20191102 Mad Gear\bin\Debug\20191102 Mad Gear.exe.config
+Z:\C#19-2\vladSoroka\20191102 Mad Gear\obj\Debug\20191102 Mad Gear.csprojResolveAssemblyReference.cache
+Z:\C#19-2\vladSoroka\20191102 Mad Gear\bin\Debug\20191102 Mad Gear.exe
+Z:\C#19-2\vladSoroka\20191102 Mad Gear\bin\Debug\20191102 Mad Gear.pdb
+Z:\C#19-2\vladSoroka\20191102 Mad Gear\obj\Debug\20191102 Mad Gear.exe
+Z:\C#19-2\vladSoroka\20191102 Mad Gear\obj\Debug\20191102 Mad Gear.pdb
