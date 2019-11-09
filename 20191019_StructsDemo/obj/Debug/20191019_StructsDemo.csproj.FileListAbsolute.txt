@@ -1,0 +1,6 @@
+Y:\C#19-2\20191019_StructsDemo\bin\Debug\20191019_StructsDemo.exe.config
+Y:\C#19-2\20191019_StructsDemo\bin\Debug\20191019_StructsDemo.exe
+Y:\C#19-2\20191019_StructsDemo\bin\Debug\20191019_StructsDemo.pdb
+Y:\C#19-2\20191019_StructsDemo\obj\Debug\20191019_StructsDemo.csprojResolveAssemblyReference.cache
+Y:\C#19-2\20191019_StructsDemo\obj\Debug\20191019_StructsDemo.exe
+Y:\C#19-2\20191019_StructsDemo\obj\Debug\20191019_StructsDemo.pdb
