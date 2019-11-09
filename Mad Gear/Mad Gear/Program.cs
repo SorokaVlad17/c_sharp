@@ -13,21 +13,19 @@ namespace Mad_Gear
         {
             Game.InitilizationConsoleByDefault();
 
-            EventOfMap.LoadMap();
+            EventOfMap.PrintMap();
+
+            Game.Jump();
+
+            Game.Fall();
 
             do
             {
-                if(Game.IsSizeOfWindowCorect())
-                {
+                Game.GameLoop();
 
-                }
+                
 
-                else
-                {
-
-                }
-
-            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+            } while (true);
         }
     }
 }
