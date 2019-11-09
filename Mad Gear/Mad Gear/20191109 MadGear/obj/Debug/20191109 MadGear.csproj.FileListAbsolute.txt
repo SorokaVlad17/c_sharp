@@ -1,0 +1,6 @@
+Z:\C#19-2\vladSoroka\20191109 MadGear\bin\Debug\20191109 MadGear.exe.config
+Z:\C#19-2\vladSoroka\20191109 MadGear\obj\Debug\20191109 MadGear.csprojResolveAssemblyReference.cache
+Z:\C#19-2\vladSoroka\20191109 MadGear\bin\Debug\20191109 MadGear.exe
+Z:\C#19-2\vladSoroka\20191109 MadGear\bin\Debug\20191109 MadGear.pdb
+Z:\C#19-2\vladSoroka\20191109 MadGear\obj\Debug\20191109 MadGear.exe
+Z:\C#19-2\vladSoroka\20191109 MadGear\obj\Debug\20191109 MadGear.pdb
