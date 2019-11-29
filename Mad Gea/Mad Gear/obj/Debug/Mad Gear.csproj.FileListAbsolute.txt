@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Mad Gear\Mad Gear\bin\Debug\Mad Gear.exe.config
+C:\Users\lenovo\Desktop\Mad Gear\Mad Gear\bin\Debug\Mad Gear.exe
+C:\Users\lenovo\Desktop\Mad Gear\Mad Gear\bin\Debug\Mad Gear.pdb
+C:\Users\lenovo\Desktop\Mad Gear\Mad Gear\obj\Debug\Mad Gear.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Mad Gear\Mad Gear\obj\Debug\Mad Gear.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Mad Gear\Mad Gear\obj\Debug\Mad Gear.exe
+C:\Users\lenovo\Desktop\Mad Gear\Mad Gear\obj\Debug\Mad Gear.pdb
