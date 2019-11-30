@@ -1,0 +1,11 @@
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\obj\Debug\netcoreapp3.0\20191130 Mad Gear.csprojAssemblyReference.cache
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\obj\Debug\netcoreapp3.0\20191130 Mad Gear.AssemblyInfoInputs.cache
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\obj\Debug\netcoreapp3.0\20191130 Mad Gear.AssemblyInfo.cs
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\bin\Debug\netcoreapp3.0\20191130 Mad Gear.exe
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\bin\Debug\netcoreapp3.0\20191130 Mad Gear.deps.json
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\bin\Debug\netcoreapp3.0\20191130 Mad Gear.runtimeconfig.json
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\bin\Debug\netcoreapp3.0\20191130 Mad Gear.runtimeconfig.dev.json
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\bin\Debug\netcoreapp3.0\20191130 Mad Gear.dll
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\bin\Debug\netcoreapp3.0\20191130 Mad Gear.pdb
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\obj\Debug\netcoreapp3.0\20191130 Mad Gear.dll
+Z:\C#19-2\vladSoroka\20191130 Mad Gear\20191130 Mad Gear\obj\Debug\netcoreapp3.0\20191130 Mad Gear.pdb
