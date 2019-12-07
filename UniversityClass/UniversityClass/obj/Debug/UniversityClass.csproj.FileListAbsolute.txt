@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\UniversityClass\UniversityClass\obj\Debug\UniversityClass.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\UniversityClass\UniversityClass\obj\Debug\UniversityClass.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\UniversityClass\UniversityClass\bin\Debug\UniversityClass.exe.config
+C:\Users\lenovo\Desktop\UniversityClass\UniversityClass\bin\Debug\UniversityClass.exe
+C:\Users\lenovo\Desktop\UniversityClass\UniversityClass\bin\Debug\UniversityClass.pdb
+C:\Users\lenovo\Desktop\UniversityClass\UniversityClass\obj\Debug\UniversityClass.exe
+C:\Users\lenovo\Desktop\UniversityClass\UniversityClass\obj\Debug\UniversityClass.pdb
