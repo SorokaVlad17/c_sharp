@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Figures\Figures\bin\Debug\Figures.exe.config
+C:\Users\lenovo\Desktop\Figures\Figures\bin\Debug\Figures.exe
+C:\Users\lenovo\Desktop\Figures\Figures\bin\Debug\Figures.pdb
+C:\Users\lenovo\Desktop\Figures\Figures\obj\Debug\Figures.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Figures\Figures\obj\Debug\Figures.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Figures\Figures\obj\Debug\Figures.exe
+C:\Users\lenovo\Desktop\Figures\Figures\obj\Debug\Figures.pdb
