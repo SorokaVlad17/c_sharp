@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Quare\Quare\bin\Debug\Quare.exe.config
+C:\Users\lenovo\Desktop\Quare\Quare\bin\Debug\Quare.exe
+C:\Users\lenovo\Desktop\Quare\Quare\bin\Debug\Quare.pdb
+C:\Users\lenovo\Desktop\Quare\Quare\obj\Debug\Quare.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Quare\Quare\obj\Debug\Quare.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Quare\Quare\obj\Debug\Quare.exe
+C:\Users\lenovo\Desktop\Quare\Quare\obj\Debug\Quare.pdb
