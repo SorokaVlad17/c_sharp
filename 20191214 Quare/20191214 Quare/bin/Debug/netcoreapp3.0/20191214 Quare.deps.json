@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "20191214 Quare/1.0.0": {
+        "runtime": {
+          "20191214 Quare.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "20191214 Quare/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
