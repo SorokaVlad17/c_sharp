@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\ClassFraction\ClassFraction\bin\Debug\ClassFraction.exe.config
+C:\Users\lenovo\Desktop\ClassFraction\ClassFraction\bin\Debug\ClassFraction.exe
+C:\Users\lenovo\Desktop\ClassFraction\ClassFraction\bin\Debug\ClassFraction.pdb
+C:\Users\lenovo\Desktop\ClassFraction\ClassFraction\obj\Debug\ClassFraction.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\ClassFraction\ClassFraction\obj\Debug\ClassFraction.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\ClassFraction\ClassFraction\obj\Debug\ClassFraction.exe
+C:\Users\lenovo\Desktop\ClassFraction\ClassFraction\obj\Debug\ClassFraction.pdb
