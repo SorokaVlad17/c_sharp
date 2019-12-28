@@ -8,214 +8,126 @@ using System.Threading.Tasks;
 
 namespace Figures
 {
-    class Line
+    class Line : Figure
     {
-        private Point[] _points;
-        private double _dX;
-        private double _dY;
+
+        #region ======Private fields======
+
         private Point _p1;
+        private Point _p2;
+        private ConsoleColor Color { get; }
+
+        #endregion
+
+        #region ======Constructors======
+
         public Line(Point p1, Point p2)
         {
-            _p1 = new Point(p1.X, p1.Y);
-            _dX = p1.X - p2.X;
-            _dY = p1.Y - p2.Y;
-
+            _p1 = new Point(p1);
+            _p2 = new Point(p2);
+            Color = p1.Color;
         }
 
-        #region Methods
-
-
-        private void AddPoint(Point newPoint)
+        public Line(int x1, int y1, int x2, int y2, ConsoleColor color)
         {
+            _p1 = new Point(x1, y1, color);
+            _p2 = new Point(x2, y2, color);
+            Color = color;
+        }
 
-            if (_points == null)
+        #endregion
+
+        #region ======Properties======s
+
+        private int DeltaX
+        {
+            get
             {
-                _points = new Point[] { newPoint };
-                return;
+                return _p2.X - _p1.X;
             }
-
-            Array.Resize(ref _points, _points.Length + 1);
-
-            _points[_points.Length - 1] = newPoint;
         }
 
-        private void DrawPixel(int x, int y, ConsoleColor color, char symbol)
+        private int DeltaY
         {
-            Console.SetCursorPosition(x, y);
-            Console.Write(symbol);
-        }
-
-        public void DrawLine()
-        {
-            if (Math.Abs(_dX) >= Math.Abs(_dY))    // если дельта между Y в разы больше чем дельта X, то меняем X и Y местами
+            get
             {
-                double koef = (double)_dY / (double)_dX;
+                return _p2.Y - _p1.Y;
+            }
+        }
 
-                if (_dX > 0)    // если дельта X меньше 0, то график будет перевернут и начинаться стоится с конца 
-                {
-                    for (int i = 0; i <= _dX; i++)
+        public int DistanceBetwwenPoints
+        {
+            get
+            {
+                return (int)Math.Sqrt(Math.Pow(_p2.X - _p1.X,2) + Math.Pow(_p2.Y - _p1.Y, 2));
+            }
+        }
+        #endregion
+
+        #region ======Methods======
+
+        public override void FillArrayAPoints()
+        {
+
+            if (Math.Abs(DeltaX) >= Math.Abs(DeltaY))    
+            {
+
+
+                double koef = (double)DeltaY / (double)DeltaX;
+
+                if (DeltaX > 0)
+                { 
+                    for (int i = 0; i <= DeltaX; i++)
                     {
                         int x = _p1.X + i;
                         int y = (int)(i * koef) + _p1.Y;
-                        AddPoint(new Point(x, y));
+
+                        AddPoint(new Point(x, y, Color));
                     }
                 }
                 else
                 {
-                    for (int i = 0; i >= _dX; i--)
+                    for (int i = 0; i >= DeltaX; i--)
                     {
                         int x = _p1.X + i;
                         int y = (int)(i * koef) + _p1.Y;
-                        AddPoint(new Point(x, y));
+
+                        AddPoint(new Point(x, y, Color));
                     }
                 }
             }
             else
             {
-                double koef = (double)_dX / (double)_dY;
+                double koef = (double)DeltaX / (double)DeltaY;
 
-                if (_dY > 0)
+                if (DeltaY > 0)
                 {
-                    for (int i = 0; i <= _dY; i++)
+                    for (int i = 0; i <= DeltaY; i++)
                     {
                         int x = (int)(i * koef) + _p1.X;
                         int y = _p1.Y + i;
-                        AddPoint(new Point(x, y));
+
+                        AddPoint(new Point(x, y, Color));
                     }
                 }
                 else
                 {
-                    for (int i = 0; i >= _dY; i--)
+                    for (int i = 0; i >= DeltaY; i--)
                     {
                         int x = (int)(i * koef) + _p1.X;
                         int y = _p1.Y + i;
-                        AddPoint(new Point(x, y));
+
+                        AddPoint(new Point(x, y, Color));
                     }
                 }
             }
-            foreach (Point p in _points)
-            {
-                DrawPixel(p.X,p.Y, ConsoleColor.Blue, '*');
-            }
+
+
         }
+
+        
+        
+        #endregion
     }
 }
-
-
-
-#endregion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//    public void DrawLine()
-//    {
-//        int dX;
-//        int dY;
-//        if(_dX >=0.0 )
-//        {
-//            dX = -1;
-//        }
-//        else
-//        {
-//            dX = 1;
-//        }
-
-//        if (_dY >= 0.0)
-//        {
-//            dY = -1;
-//        }
-//        else
-//        {
-//            dY = 1;
-//        }
-//        int lengthX = Math.Abs((int)_dX);
-//        int lengthY = Math.Abs((int)_dY);
-//        int length;
-
-//        if (lengthX<lengthY)
-//        {
-//            length = lengthY;
-//        }
-//        else
-//        {
-//            length = lengthX;
-//        }
-
-//        if(length == 0)
-//        {
-//            return;
-//        }
-
-//        if (lengthY <= lengthX)
-//        {
-//            // Начальные значения
-//            int x = _p1.X;
-//            double y = _p1.Y;
-//            int d = -lengthX;
-
-//            // Основной цикл
-//            length++;
-//            for (int i = 0; i < length + 1; i++)
-//            {
-//                DrawPixel(x, (int)Math.Round(y), ConsoleColor.Blue, '*');
-//                x += dX;
-//                d += 2 * lengthY;
-//                if (d > 0)
-//                {
-//                    d -= 2 * lengthX;
-//                    y += dY;
-//                }
-//            }
-//           }
-//        else
-//        {
-//            // Начальные значения
-//            int x = _p1.X;
-//            int y = _p1.Y;
-//            int d = -lengthY;
-
-//            // Основной цикл
-//            length++;
-//            for (int i = 0; i < length + 1; i++)
-//            {
-//                DrawPixel(x, y, ConsoleColor.Blue, '*');
-//                d += 2 * lengthX;
-//                if (d > 0)
-//                {
-//                    d -= 2 * lengthY;
-//                    x += dX;
-//                }
-//            }
-//            }
-//        }
-
-//    }
-//}
+   

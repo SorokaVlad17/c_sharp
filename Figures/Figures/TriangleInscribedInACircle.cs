@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Figures
 {
-     class TriangleInscribedInACircle : Circle
-    {
+    // class TriangleInscribedInACircle : Circle
+    //{
         
-    }
+    //}
 }

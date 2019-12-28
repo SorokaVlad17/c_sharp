@@ -8,13 +8,59 @@ namespace Figures
 {
     class Figure
     {
-        protected Line[] _lines;
-        public virtual void Draw()
+        #region ======Private fields======
+
+        protected Point[] _points;
+
+        #endregion
+
+        #region ======Constructors======
+
+        public Figure()
         {
-            for (int i = 0; i < _lines.Length; i++)
+           // TODO : PARAMS!
+        }
+
+        #endregion
+
+        #region ======Properties======
+ 
+        public int CountPoints
+        {
+            get
             {
-                _lines[i].DrawLine();
+                return _points.Length;
             }
         }
+
+        #endregion
+
+        #region ======Methods======
+
+        public virtual void FillArrayAPoints()
+        {
+
+        }
+
+        protected void AddPoint(Point newPoint)
+        {
+
+            if (_points == null)
+            {
+                _points = new Point[] { newPoint };
+                return;
+            }
+
+            Array.Resize(ref _points, _points.Length + 1);
+
+            _points[_points.Length - 1] = newPoint;
+        }
+
+        public Point GetPoint(int index)
+        {
+            return new Point(_points[index].X, _points[index].Y, _points[index].Color);
+        }
+
+        #endregion
     }
 }
