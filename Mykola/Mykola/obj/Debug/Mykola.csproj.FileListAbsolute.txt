@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\C#\Course\Mykola\Mykola\bin\Debug\Mykola.exe.config
+C:\Users\lenovo\Desktop\C#\Course\Mykola\Mykola\bin\Debug\Mykola.exe
+C:\Users\lenovo\Desktop\C#\Course\Mykola\Mykola\bin\Debug\Mykola.pdb
+C:\Users\lenovo\Desktop\C#\Course\Mykola\Mykola\obj\Debug\Mykola.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\C#\Course\Mykola\Mykola\obj\Debug\Mykola.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\C#\Course\Mykola\Mykola\obj\Debug\Mykola.exe
+C:\Users\lenovo\Desktop\C#\Course\Mykola\Mykola\obj\Debug\Mykola.pdb
